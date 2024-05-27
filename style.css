@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 44, 47);
+}
+.conteiner-all{
+    background-color: rgb(10, 0, 18);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 0px 0px rgba(14, 57, 11, 0.26);
+    cursor: pointer;
+    min-width: 400px;
+}
+.number-and-operations{
+    display: flex;
+    margin-top: 20px;
+}
+.equal{
+    margin-right: 10px;
+    background-color: blanchedalmond;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.numbers p{
+    padding: 17px;
+    background-color: #FFBC42;
+    border-radius: 10px;
+    height: fit-content;
+
+}
+.operations{
+    display: grid;
+    gap: 10px;
+}
+.operations p{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFBC42;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+    background-color: rgb(7, 33, 55);
+    margin-top: 10px;
+    color: white;
+    padding-right: 10px;
+}
+.delete-and-reset{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 102, 0, 0.525) ;
+    padding: 10px;
+    border-radius: 10px;
+}
